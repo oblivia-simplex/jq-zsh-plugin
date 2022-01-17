@@ -37,5 +37,4 @@ eval "$FZF_JQ_REPL_COMMAND" |
     --height="99%" \
     --query="." \
     --bind "tab:replace-query,return:print-query" \
-    --bind "alt-up:preview-page-up,alt-down:preview-page-down" \
-    --bind "ctrl-r:reload${fzf_notation}${FZF_JQ_REPL_COMMAND}${fzf_notation}+refresh-preview"
+    --bind "alt-up:preview-page-up,alt-down:preview-page-down" 
